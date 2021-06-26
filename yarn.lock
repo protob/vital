@@ -5239,11 +5239,6 @@ jest-matcher-utils@^26.6.2:
     jest-get-type "^26.3.0"
     pretty-format "^26.6.2"
 
-jest-matchmedia-mock@^1.1.0:
-  version "1.1.0"
-  resolved "https://npm.dtbase.space/jest-matchmedia-mock/-/jest-matchmedia-mock-1.1.0.tgz#eaae8c5d1dee4e4f7c59f8cb1b38b5d7ea842552"
-  integrity sha512-REnJRsOSCMpGAlkxmvVTqEBpregyFVi9MPEH3N83W1yLKzDdNehtCkcdDZduXq74PLtfI+11NyM4zKCK5ynV9g==
-
 jest-message-util@^26.6.2:
   version "26.6.2"
   resolved "https://npm.dtbase.space/jest-message-util/-/jest-message-util-26.6.2.tgz#58173744ad6fc0506b5d21150b9be56ef001ca07"
@@ -6501,6 +6496,13 @@ pify@^3.0.0:
   version "3.0.0"
   resolved "https://npm.dtbase.space/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
   integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
+
+pinia@^2.0.0-beta.3:
+  version "2.0.0-beta.3"
+  resolved "https://npm.dtbase.space/pinia/-/pinia-2.0.0-beta.3.tgz#c6f0d07da54dc5aa237f4cc9281898e927b33d16"
+  integrity sha512-4ygKhe9FrYD69tJ7nSdgHm9Ldb0aM/Nzyb8Qz/RZuzOyOr85jWHNmCAhCytWy0l9C4/ypGJYCEJ3vuZfyWjcZA==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.14"
 
 pirates@^4.0.1:
   version "4.0.1"

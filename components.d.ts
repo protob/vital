@@ -3,8 +3,15 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     README: typeof import('./src/components/README.md')['default']
+    SampleStore: typeof import('./src/components/SampleStore.vue')['default']
+    CarbonCampsite: typeof import('virtual:vite-icons/carbon/campsite')['default']
+    CarbonMoon: typeof import('virtual:vite-icons/carbon/moon')['default']
+    CarbonSun: typeof import('virtual:vite-icons/carbon/sun')['default']
+    CarbonLanguage: typeof import('virtual:vite-icons/carbon/language')['default']
+    CarbonDicomOverlay: typeof import('virtual:vite-icons/carbon/dicom-overlay')['default']
   }
 }
 

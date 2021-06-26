@@ -10,6 +10,7 @@ import Protium from "@protium/protium";
 import "@protium/protium/dist/protium.css";
 import "@protium/protium/dist/protium-full-vars.css";
 import FontAwesomeIcon from "./config/icons"
+import { createPinia } from 'pinia'
 
 
 
@@ -32,6 +33,7 @@ export const createApp = ViteSSG(
                 iconPack: "fas",
             }
         )
+        ctx.app.use(createPinia())
         Object.values(
             import.meta.globEager('./modules/*.ts')).map(i => i.install?.(ctx))
     },
