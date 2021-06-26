@@ -1,4 +1,4 @@
-# vital
+# Vital
 
 Vital - Vite starter
 
