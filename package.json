@@ -7,6 +7,10 @@
     "preview-https": "serve dist"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
+    "@protium/protium": "^0.0.1",
     "@vueuse/core": "^5.0.3",
     "@vueuse/head": "^0.6.0",
     "nprogress": "^0.2.0",
