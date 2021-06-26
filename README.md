@@ -17,3 +17,7 @@ modified for personal needs.
 - Markdown
 - <script setup>
 - Server-side generation (SSG) via vite-ssg
+- [Pinia](https://github.com/posva/pinia) store 
+- [Villus](https://github.com/logaretm/villus) Lightweight graphQL client 
+- Jest / vue-test-utils
+ 
