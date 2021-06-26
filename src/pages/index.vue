@@ -22,6 +22,7 @@ alert(msg)
 <template>
   <div>
     <h1 class="text-4xl text-center">VITAL</h1>
+    <graphQL></graphQL>
     <sampleStore></sampleStore>
     <div class="container mx-auto  pt-6">
       <div class="flex flex-row  justify-center">

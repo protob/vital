@@ -4255,6 +4255,11 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0,
   resolved "https://npm.dtbase.space/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
+graphql@^15.5.1:
+  version "15.5.1"
+  resolved "https://npm.dtbase.space/graphql/-/graphql-15.5.1.tgz#f2f84415d8985e7b84731e7f3536f8bb9d383aad"
+  integrity sha512-FeTRX67T3LoE3LWAxxOlW2K3Bz+rMYAC18rRguK4wgXaTZMiJwSUwDmPFo3UadAKbzirKIg5Qy+sNJXbpPRnQw==
+
 gray-matter@^4.0.3:
   version "4.0.3"
   resolved "https://npm.dtbase.space/gray-matter/-/gray-matter-4.0.3.tgz#e893c064825de73ea1f5f7d88c7a9f7274288798"
@@ -8500,6 +8505,11 @@ vfile@^4.0.0, vfile@^4.0.1:
     is-buffer "^2.0.0"
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
+
+villus@^1.0.0-rc.17:
+  version "1.0.0-rc.17"
+  resolved "https://npm.dtbase.space/villus/-/villus-1.0.0-rc.17.tgz#8cd252312f9021a3eda2a73246268331b246714b"
+  integrity sha512-ElD8aYxdq55Ps7O0zgCUUZWxQl3an4U8R2xfgdwqdbpfx34S08U9+PLHVm1X20oWh2Tbd6fNLVStgqte/sJXqg==
 
 vite-plugin-components@^0.11.2:
   version "0.11.2"

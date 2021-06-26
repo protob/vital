@@ -5,6 +5,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    GraphQL: typeof import('./src/components/GraphQL.vue')['default']
     README: typeof import('./src/components/README.md')['default']
     SampleStore: typeof import('./src/components/SampleStore.vue')['default']
     CarbonCampsite: typeof import('virtual:vite-icons/carbon/campsite')['default']
