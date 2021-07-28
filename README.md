@@ -2,7 +2,8 @@
 
 Vital - Vite starter
 
-Fork of [Vitesse](https://github.com/antfu/vitesse) 
+Fork of [Vitesse](https://github.com/antfu/vitesse).
+
 Configuration modified for personal needs.
 
 ### Main features:
