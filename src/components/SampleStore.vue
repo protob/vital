@@ -1,18 +1,16 @@
 <script setup lang="ts">
-import { useStore } from '../stores/sample'
 
+import { useSampleStore } from '~/stores/sample'
 
-const store = useStore()
-store.counter = 3
-    store.randomizeCounter()
+const sample = useSampleStore()
+
+sample.randomizeCounter()
 
 </script>
 
 <template>
   <nav class="footer text-xl mt-6">
     <h1>STORE</h1>
-    <pre>{{store.doubleCount}}</pre>
-
-
+    <pre>{{ sample.counter }}</pre>
   </nav>
 </template>

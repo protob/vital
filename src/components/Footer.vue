@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { isDark, toggleDark } from '~/logic'
+import { isDark, toggleDark } from '~/composables'
 
 const { t, availableLocales, locale } = useI18n()
 
@@ -12,24 +12,21 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <nav class="footer text-xl mt-6">
-    <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <carbon-campsite />
-    </router-link>
+  <nav text-xl mt-6>
+    <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
+      <div i-carbon-campsite /> Home
+    </RouterLink>
 
-    <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark">
-      <carbon-moon v-if="isDark" />
-      <carbon-sun v-else />
+    <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
+      <div i="carbon-sun dark:carbon-moon" /> Mode
     </button>
 
     <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
-      <carbon-language />
+      <div i-carbon-language /> Locale
     </a>
 
-    <router-link class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <carbon-dicom-overlay />
-    </router-link>
-
-
+    <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
+      <div i-carbon-dicom-overlay /> About
+    </RouterLink>
   </nav>
 </template>

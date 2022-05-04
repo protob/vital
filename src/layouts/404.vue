@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import { useRouter } from 'vue-router'
-import { useI18n } from 'vue-i18n'
-
 const router = useRouter()
 const { t } = useI18n()
 </script>
@@ -9,9 +6,7 @@ const { t } = useI18n()
 <template>
   <main class="px-4 py-10 text-center text-teal-700 dark:text-gray-200">
     <div>
-      <p class="text-4xl">
-
-      </p>
+      <p class="text-4xl" />
     </div>
     <router-view />
     <div>

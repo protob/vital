@@ -1,13 +1,5 @@
-<template>
-  <div>
-    <div v-if="data">
-      <pre>{{ data }}</pre>
-    </div>
-  </div>
-</template>
-
 <script lang="ts">
-import { useQuery } from 'villus';
+import { useQuery } from 'villus'
 
 export default {
   setup() {
@@ -18,13 +10,21 @@ export default {
           title
         }
       }
-    `;
+    `
 
     const { data } = useQuery({
       query: AllPosts,
-    });
+    })
 
-    return { data };
+    return { data }
   },
-};
+}
 </script>
+
+<template>
+  <div>
+    <div v-if="data">
+      <pre>{{ data }}</pre>
+    </div>
+  </div>
+</template>
